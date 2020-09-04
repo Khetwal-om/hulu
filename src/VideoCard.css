@@ -17,3 +17,9 @@
 .videocard >h2{
     padding-top: 10px;
 }
+.videocard__stats{
+    display: none;
+}
+.videocard:hover >.videocard__stats{
+    display: inline;
+}
